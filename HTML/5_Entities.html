@@ -1,0 +1,32 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <p>is a paragraph</p> 
+    </div>
+    <div class="container">
+        <p>is a                          paragraph </p> <!--spacing not possible so-->
+    </div>
+    <div class="container">
+        <p>is a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;paragraph</p> <!--use non breaking space (nbsp) to give empty spaces, because html takes all the spaces as one space-->
+    </div>
+    <div class="container">
+        <p>is a paragraph <p>   </p> <!--this considered as a tag whereas i want <p> as in input so-->
+    </div>
+    <div class="container">
+        <p>is a paragraph &lt;p&gt; </p> 
+        <p>pount written as &pound; </p> 
+        <p>copyright written as &COPY;</p> 
+        <p>another character is &rAarr;</p> 
+        <p>fraction written as &frac14;</p> 
+        <p>empty character is written like this &#8203;&#8203;&#8203;&#8203;</p> 
+    </div>
+    
+</body>
+</html>

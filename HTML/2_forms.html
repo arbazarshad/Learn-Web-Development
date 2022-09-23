@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h2>
+        THis is forms file
+    </h2>
+    <form>
+        <!-- we submit our form to backaend i.e php or any database (data is what ever entered by user) -->
+        action = "backend.php"
+        <!-- type input to get all the accesable attributes  -->
+        <!-- input means take input from user -->
+        <!-- type means what type of input to take  -->
+        <!-- and we will give the name of the input box its like reference to user that which box is to which input  -->
+        <!-- in link we can see the value of name is stored to MY_name -->
+        <!-- div is used to divide the section  -->
+        <!-- if div is not used everything will be in single line if dic is used then in two different lines we will get that dname and roll -->
+        
+        <div>Name: <input type="text" name="My_Name" id=""> </div><br> <!-- we used br just for look we do more in css -->
+        <div>roll: <input type="text" name="My_roll" id=""> </div><br>
+        <div>email: <input type="email" name="My_email" id=""> </div><br>
+        <br>
+        <!--  date is selecting the date which give acees to calendar selection -->
+        <div>
+            date : <input type="date" name="My_date" id="">
+        </div><br>
+        <!-- number means takes numebr as input -->
+        <div>
+            number : <input type="number" name="My_date" id="">
+        </div><br>
+
+        <label for="password">Enter password</label>
+        
+        
+        <div>
+            <input type="password" name="My_password" id="password">
+        </div><br>
+
+        <!-- (box shaped checkbox)chcekbox means user is able to tick the box or untick the box (only one box provided) -->
+        <label for="elligible">Are you elligible</label>
+        <div>
+            <input type="checkbox" name="Check_box" id="elligible" checked> <!--checked means it will be already checked -->
+        </div><br>
+        
+        
+        <!-- user is able to check either male box or female box not both (circle shaped check box)-->
+        Gender
+        
+        <!-- these example perfectly explaines the use of label and positioning of label -->
+        
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="My_gender" id="male">
+            <label for="female">Female</label> 
+            <input type="radio" name="My_gender" id="female">
+        </div>
+
+        <!-- Other way of gender -->
+        <div>
+            
+            male: <input type="radio" name="My_gend" id="male"> 
+            female: <input type="radio" name="My_gend" id="female">
+        </div>
+
+        <div>
+            <!-- this is a box created to input the paragraph or essay where the size of box intially depends on cols and rows
+            the box is resizable and My_text is variable in backend where it will be stored  -->
+            write about urself: <br><textarea name="My_text" id="" cols="30" rows="10"></textarea>
+            
+        </div>
+
+
+        <div>
+            <input type="submit" value="Submit now"> <!-- value means button similar to (link is type and img is value) -->
+            <input type="reset" value="reset now">
+        </div>
+
+        <!-- LABEL -->
+        <!-- now in ablove cases we used simply name are u elligle. Now, if we click the name then it will select whereas
+        if we use label then if we click on name then name box will be selected  -->
+        <!-- how to use label -->
+        <!-- the tag input will contain id who's value will be equal to value of name in label tag ex is below -->
+        
+        
+
+    </form>
+
+    
+
+</body>
+
+</html>
