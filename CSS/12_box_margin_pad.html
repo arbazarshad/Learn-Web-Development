@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box,margin and padding</title>
+    <style>
+        /* *{} is the universal styling for all the elements  the value will be changed for individual as we modify them*/
+        *{
+            box-sizing: border-box;
+            /* so here if we change the size of padding and margin then the width of the box will change 
+            so if we use box sizzing and border box then the mentioned width will be used and fixed and if padding and margin value is changed then the length will be adjusted not width */
+        }
+        body{
+            background-color: rgb(136, 209, 181);
+        }
+        .container{
+            background-color: rgb(166, 66, 66);
+            border: 4px solid blueviolet;
+            /* we can set padding left right top bottom using respective tags */
+            /* in the same way margin can also be used as top bottom left right  */
+            /* padding: 10px; */
+            /* margin: 34px; */
+            /* now we can also set padding as padding: top right bottom left */
+            /* ex. padding: 4px 8px 4px 10px; */
+            /* same for margin */
+            /* we can also give as padding: (top/bottom) (left/right) top and bottom same  adn right and left same */
+            padding: 2px 4px; 
+            margin: 2px 4px;       
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>
+            this is my heading</h3>
+            <p id="first">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate explicabo doloribus magni.
+            </p>
+    </div>
+    
+<div class="container">
+    <h3>
+        this is my heading</h3>
+        <p id="second">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate explicabo doloribus magni.
+        </p>
+    
+</div>
+    <div class="container">
+        <h3>
+            this is my heading</h3>
+            <p id="third">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate explicabo doloribus magni.
+            </p>
+    </div>
+        <img src="Screenshot (917).png" alt="no photo"> 
+        <!-- here in the image the first comes the text then comes the padding then comes the border then magrin
+        then we can give the length of each seperately for ex:padding 2px then border 4px -->
+        
+    
+</body>
+</html>

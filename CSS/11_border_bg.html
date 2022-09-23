@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>height,width,border and background</title>
+    <style>
+        #p1{
+            background-color: red;
+        }
+        #p2{
+            background-color: blue;
+            height: 3cm;
+            width: 255px;
+        }
+        #p3{
+            background-color: blue; /*it give color to background of the text that is color to block*/
+            height: 3cm; /* here wegive height of the box */
+            width: 255px; /* here we give width of the box i.e lenght of box*/
+            border-color: yellow; /* here we give color of the border*/
+            border-style:dashed; /* here style of the border is given i.e only line or the dotted or dash and so on*/
+            border-width: 2px; /* here the width of the border is given i.e thickness of border*/
+            border-radius: 130px; /* here we give the curvatuer lenght of the box means how much should curve in border of the box*/
+        }
+        #p4{
+            border: 2px dotted yellow;
+            background-color: blue;
+        }
+        #p5{
+            height: 2cm;
+            width: 150px;
+            border-top: 2px dotted red; /* top of border configration and other also same as stated for left right and bottom*/
+            border-bottom: 4px solid blue;
+            border-left: 3px dashed green;
+            border-right: 1px dotted yellow;
+            border-top-left-radius: 5px; /*this gives the curvature for top left and other also same as stated top right and bottom */
+        }
+        #p6{
+            height: 200px;
+            width: 155px;
+            border: 2px dotted green;
+            background-image: url('/*add any url here */');
+            background-position: 55px 20px ; /*here first postion is x axis and second position is y axis*/
+            /*we can also give alignments such as center center and center top and center bottom and top top and so on*/
+            background-repeat: no-repeat; /*image will not be repeated*/
+            /*repeat-x and repeat-y will be used to repeat the image in x and y axis*/
+        }
+    </style>
+</head>
+<body>
+    <p id = "p1">this is paragraph</p>
+    <p id="p2">this is second para</p>
+    <p id="p3">this is third para</p>
+    <p id="p4">comination of border width and color and style</p>
+    <p id="p5">this is border configration para</p>
+    <p id="p6">here we add image in backgrond</p>
+</body>
+</html>

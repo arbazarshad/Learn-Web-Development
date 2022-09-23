@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo designer and more designers</title>
+    <style>
+        #container{
+            border: 2px solid red;
+            background-color: rgb(182, 234, 245);
+            padding: 34px;
+            margin: auto;
+            width: 355px;
+        }
+        a{
+            color: blue;
+            text-decoration: none; /*this will eliminate the underline of the read more*/
+
+        }
+
+        a:hover{  /*when cursor placed to anchor's text then the following conditions will be appied(only works when cursor on it)*/
+            background-color: rgb(222, 230, 237);
+            font-size: 25px;
+
+        }
+        a:visited{ /*here if the link is being clicked then it is visited after then the following properties will be applied*/
+            background-color: none;
+        }
+        .btn{
+            background-color: rgb(189, 126, 237);
+            padding: 2px;
+            border: none;
+            cursor: grabbing;
+            font-size: 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container" class="count1">
+        <h3>this is my heading</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem magni ea mollitia recusandae. Laborum, repudiandae. Porro est, reprehenderit repudiandae magni quidem libero eos autem magnam excepturi placeat consequuntur voluptas ipsa dolor praesentium, officia enim.</p>
+        <a href="https://www.facebook.com" target="_blank" class="btn">read more</a>
+        <button class="btn">contact us</button>
+    </div>
+</body>
+</html>
